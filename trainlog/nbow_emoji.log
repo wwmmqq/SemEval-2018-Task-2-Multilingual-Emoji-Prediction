@@ -1,0 +1,452 @@
+INFO dataset.py: 128: dim_word: 300
+INFO dataset.py: 129: dim_char: 25
+INFO dataset.py: 130: max_len_sent: 30
+INFO dataset.py: 131: max_len_word: 10
+INFO dataset.py: 133: we shape: (55833 300)
+INFO dataset.py: 137: ==> train :
+INFO dataset.py: 139: (471455,)
+INFO dataset.py: 139: (471455, 30)
+INFO dataset.py: 139: (471455,)
+INFO dataset.py: 142: ==> dev :
+INFO dataset.py: 144: (50000,)
+INFO dataset.py: 144: (50000, 30)
+INFO dataset.py: 144: (50000,)
+INFO dataset.py: 147: ==> test :
+INFO dataset.py: 149: (50000,)
+INFO dataset.py: 149: (50000, 30)
+INFO dataset.py: 149: (50000,)
+INFO config.py:  35: clipper : 10.0
+INFO config.py:  35: dim_word : 300
+INFO config.py:  35: max_len_sent : 30
+INFO config.py:  35: save_model : True
+INFO config.py:  35: n_class : 20
+INFO config.py:  35: batch_size : 128
+INFO config.py:  35: epoch_size : 10
+INFO config.py:  35: l2_norm : 0.0001
+INFO config.py:  35: lr : 0.01
+INFO config.py:  35: n_mlp : 300
+INFO textcleaner.py:  20: 'pattern' package not found; tag filters are not available for English
+INFO dataset.py: 128: dim_word: 300
+INFO dataset.py: 129: dim_char: 25
+INFO dataset.py: 130: max_len_sent: 30
+INFO dataset.py: 131: max_len_word: 10
+INFO dataset.py: 133: we shape: (55833 300)
+INFO dataset.py: 137: ==> train :
+INFO dataset.py: 139: (471455,)
+INFO dataset.py: 139: (471455, 30)
+INFO dataset.py: 139: (471455,)
+INFO dataset.py: 142: ==> dev :
+INFO dataset.py: 144: (50000,)
+INFO dataset.py: 144: (50000, 30)
+INFO dataset.py: 144: (50000,)
+INFO dataset.py: 147: ==> test :
+INFO dataset.py: 149: (50000,)
+INFO dataset.py: 149: (50000, 30)
+INFO dataset.py: 149: (50000,)
+INFO config.py:  35: clipper : 10.0
+INFO config.py:  35: dim_word : 300
+INFO config.py:  35: max_len_sent : 30
+INFO config.py:  35: save_model : True
+INFO config.py:  35: n_class : 20
+INFO config.py:  35: batch_size : 128
+INFO config.py:  35: epoch_size : 10
+INFO config.py:  35: l2_norm : 0.0001
+INFO config.py:  35: lr : 0.01
+INFO config.py:  35: n_mlp : 300
+INFO textcleaner.py:  20: 'pattern' package not found; tag filters are not available for English
+INFO main.py: 108: Epoch: 0
+INFO train_tool.py:  86: step_100 loss: 5.14186, acc: 0.17633
+INFO train_tool.py:  86: step_200 loss: 2.72847, acc: 0.21992
+INFO train_tool.py:  86: step_300 loss: 2.67512, acc: 0.23977
+INFO train_tool.py:  86: step_400 loss: 2.61826, acc: 0.24148
+INFO train_tool.py:  86: step_500 loss: 2.60579, acc: 0.25750
+INFO train_tool.py:  86: step_600 loss: 2.60392, acc: 0.25789
+INFO train_tool.py:  86: step_700 loss: 2.62454, acc: 0.24469
+INFO train_tool.py:  86: step_800 loss: 2.59570, acc: 0.26156
+INFO train_tool.py:  86: step_900 loss: 2.59430, acc: 0.26461
+INFO train_tool.py:  86: step_1000 loss: 2.60720, acc: 0.25922
+INFO train_tool.py:  96: macro f1: 0.13439 (best: 0.27000)
+INFO train_tool.py:  86: step_1100 loss: 2.55956, acc: 0.27500
+INFO train_tool.py:  86: step_1200 loss: 2.58091, acc: 0.26406
+INFO train_tool.py:  86: step_1300 loss: 2.56940, acc: 0.26820
+INFO train_tool.py:  86: step_1400 loss: 2.56456, acc: 0.26750
+INFO train_tool.py:  86: step_1500 loss: 2.54266, acc: 0.27992
+INFO train_tool.py:  86: step_1600 loss: 2.56616, acc: 0.27180
+INFO train_tool.py:  86: step_1700 loss: 2.55439, acc: 0.27625
+INFO train_tool.py:  86: step_1800 loss: 2.55920, acc: 0.27953
+INFO train_tool.py:  86: step_1900 loss: 2.56835, acc: 0.27289
+INFO train_tool.py:  86: step_2000 loss: 2.57117, acc: 0.27758
+INFO train_tool.py:  96: macro f1: 0.14882 (best: 0.27000)
+INFO train_tool.py:  86: step_2100 loss: 2.54355, acc: 0.28125
+INFO train_tool.py:  86: step_2200 loss: 2.54578, acc: 0.27758
+INFO train_tool.py:  86: step_2300 loss: 2.57909, acc: 0.26937
+INFO train_tool.py:  86: step_2400 loss: 2.54611, acc: 0.28047
+INFO train_tool.py:  86: step_2500 loss: 2.54310, acc: 0.27937
+INFO train_tool.py:  86: step_2600 loss: 2.53546, acc: 0.27922
+INFO train_tool.py:  86: step_2700 loss: 2.55791, acc: 0.26969
+INFO train_tool.py:  86: step_2800 loss: 2.54412, acc: 0.28656
+INFO train_tool.py:  86: step_2900 loss: 2.52535, acc: 0.29000
+INFO train_tool.py:  86: step_3000 loss: 2.55621, acc: 0.28508
+INFO train_tool.py:  96: macro f1: 0.15922 (best: 0.27000)
+INFO train_tool.py:  86: step_3100 loss: 2.52164, acc: 0.28414
+INFO train_tool.py:  86: step_3200 loss: 2.51583, acc: 0.28906
+INFO train_tool.py:  86: step_3300 loss: 2.54674, acc: 0.28898
+INFO train_tool.py:  86: step_3400 loss: 2.53552, acc: 0.28094
+INFO train_tool.py:  86: step_3500 loss: 2.53347, acc: 0.28258
+INFO train_tool.py:  86: step_3600 loss: 2.51430, acc: 0.28977
+INFO train_tool.py: 104: End current epoch !
+INFO main.py: 121: ### cost time: 7.32 m
+INFO main.py: 108: Epoch: 1
+INFO main.py: 112: change lr: 0.010000  => 0.001000
+INFO train_tool.py:  86: step_3700 loss: 2.41947, acc: 0.30762
+INFO train_tool.py:  86: step_3800 loss: 2.35833, acc: 0.33063
+INFO train_tool.py:  86: step_3900 loss: 2.34551, acc: 0.33164
+INFO train_tool.py:  86: step_4000 loss: 2.32834, acc: 0.33813
+INFO train_tool.py:  96: macro f1: 0.17842 (best: 0.27000)
+INFO train_tool.py:  86: step_4100 loss: 2.33662, acc: 0.33937
+INFO train_tool.py:  86: step_4200 loss: 2.30854, acc: 0.33789
+INFO train_tool.py:  86: step_4300 loss: 2.29643, acc: 0.34500
+INFO train_tool.py:  86: step_4400 loss: 2.32306, acc: 0.34016
+INFO train_tool.py:  86: step_4500 loss: 2.31014, acc: 0.34148
+INFO train_tool.py:  86: step_4600 loss: 2.29104, acc: 0.34891
+INFO train_tool.py:  86: step_4700 loss: 2.29083, acc: 0.34766
+INFO train_tool.py:  86: step_4800 loss: 2.30900, acc: 0.34477
+INFO train_tool.py:  86: step_4900 loss: 2.28799, acc: 0.34625
+INFO train_tool.py:  86: step_5000 loss: 2.28695, acc: 0.35242
+INFO train_tool.py:  96: macro f1: 0.19478 (best: 0.27000)
+INFO train_tool.py:  86: step_5100 loss: 2.30004, acc: 0.34430
+INFO train_tool.py:  86: step_5200 loss: 2.29043, acc: 0.34437
+INFO train_tool.py:  86: step_5300 loss: 2.27867, acc: 0.34883
+INFO train_tool.py:  86: step_5400 loss: 2.29063, acc: 0.34922
+INFO train_tool.py:  86: step_5500 loss: 2.28844, acc: 0.34836
+INFO train_tool.py:  86: step_5600 loss: 2.25787, acc: 0.35297
+INFO train_tool.py:  86: step_5700 loss: 2.27903, acc: 0.35422
+INFO train_tool.py:  86: step_5800 loss: 2.26608, acc: 0.35547
+INFO train_tool.py:  86: step_5900 loss: 2.27622, acc: 0.34852
+INFO train_tool.py:  86: step_6000 loss: 2.29332, acc: 0.34437
+INFO train_tool.py:  96: macro f1: 0.20352 (best: 0.27000)
+INFO train_tool.py:  86: step_6100 loss: 2.24368, acc: 0.35719
+INFO train_tool.py:  86: step_6200 loss: 2.24183, acc: 0.35617
+INFO train_tool.py:  86: step_6300 loss: 2.24408, acc: 0.35516
+INFO train_tool.py:  86: step_6400 loss: 2.22422, acc: 0.36352
+INFO train_tool.py:  86: step_6500 loss: 2.24410, acc: 0.35203
+INFO train_tool.py:  86: step_6600 loss: 2.23550, acc: 0.35187
+INFO train_tool.py:  86: step_6700 loss: 2.24556, acc: 0.35094
+INFO train_tool.py:  86: step_6800 loss: 2.19748, acc: 0.36328
+INFO train_tool.py:  86: step_6900 loss: 2.21871, acc: 0.36242
+INFO train_tool.py:  86: step_7000 loss: 2.21927, acc: 0.36195
+INFO train_tool.py:  96: macro f1: 0.21911 (best: 0.27000)
+INFO train_tool.py:  86: step_7100 loss: 2.24193, acc: 0.35375
+INFO train_tool.py:  86: step_7200 loss: 2.22076, acc: 0.35656
+INFO train_tool.py:  86: step_7300 loss: 2.21391, acc: 0.35180
+INFO train_tool.py: 104: End current epoch !
+INFO main.py: 121: ### cost time: 14.48 m
+INFO main.py: 108: Epoch: 2
+INFO main.py: 112: change lr: 0.001000  => 0.000100
+INFO train_tool.py:  86: step_7400 loss: 2.17774, acc: 0.37329
+INFO train_tool.py:  86: step_7500 loss: 2.15316, acc: 0.37797
+INFO train_tool.py:  86: step_7600 loss: 2.14268, acc: 0.38102
+INFO train_tool.py:  86: step_7700 loss: 2.17211, acc: 0.36570
+INFO train_tool.py:  86: step_7800 loss: 2.16968, acc: 0.36859
+INFO train_tool.py:  86: step_7900 loss: 2.16526, acc: 0.36258
+INFO train_tool.py:  86: step_8000 loss: 2.15786, acc: 0.37523
+INFO train_tool.py:  96: macro f1: 0.22647 (best: 0.27000)
+INFO train_tool.py:  86: step_8100 loss: 2.16433, acc: 0.36820
+INFO train_tool.py:  86: step_8200 loss: 2.16432, acc: 0.37078
+INFO train_tool.py:  86: step_8300 loss: 2.14847, acc: 0.37391
+INFO train_tool.py:  86: step_8400 loss: 2.14786, acc: 0.37727
+INFO train_tool.py:  86: step_8500 loss: 2.14993, acc: 0.37469
+INFO train_tool.py:  86: step_8600 loss: 2.14082, acc: 0.37766
+INFO train_tool.py:  86: step_8700 loss: 2.14840, acc: 0.38016
+INFO train_tool.py:  86: step_8800 loss: 2.13601, acc: 0.37586
+INFO train_tool.py:  86: step_8900 loss: 2.16377, acc: 0.36898
+INFO train_tool.py:  86: step_9000 loss: 2.12269, acc: 0.38391
+INFO train_tool.py:  96: macro f1: 0.22790 (best: 0.27000)
+INFO train_tool.py:  86: step_9100 loss: 2.13736, acc: 0.38070
+INFO train_tool.py:  86: step_9200 loss: 2.15519, acc: 0.37062
+INFO train_tool.py:  86: step_9300 loss: 2.15253, acc: 0.36703
+INFO train_tool.py:  86: step_9400 loss: 2.13608, acc: 0.37500
+INFO train_tool.py:  86: step_9500 loss: 2.14140, acc: 0.37625
+INFO train_tool.py:  86: step_9600 loss: 2.12853, acc: 0.38297
+INFO train_tool.py:  86: step_9700 loss: 2.16174, acc: 0.37273
+INFO train_tool.py:  86: step_9800 loss: 2.16653, acc: 0.36766
+INFO train_tool.py:  86: step_9900 loss: 2.15038, acc: 0.38484
+INFO train_tool.py:  86: step_10000 loss: 2.14219, acc: 0.37891
+INFO train_tool.py:  96: macro f1: 0.22926 (best: 0.27000)
+INFO train_tool.py:  86: step_10100 loss: 2.14079, acc: 0.37688
+INFO train_tool.py:  86: step_10200 loss: 2.15871, acc: 0.37000
+INFO train_tool.py:  86: step_10300 loss: 2.15595, acc: 0.37289
+INFO train_tool.py:  86: step_10400 loss: 2.13869, acc: 0.37711
+INFO train_tool.py:  86: step_10500 loss: 2.15214, acc: 0.37578
+INFO train_tool.py:  86: step_10600 loss: 2.12006, acc: 0.38109
+INFO train_tool.py:  86: step_10700 loss: 2.16902, acc: 0.37430
+INFO train_tool.py:  86: step_10800 loss: 2.15956, acc: 0.36648
+INFO train_tool.py:  86: step_10900 loss: 2.13234, acc: 0.38461
+INFO train_tool.py:  86: step_11000 loss: 2.15972, acc: 0.37422
+INFO train_tool.py:  96: macro f1: 0.23012 (best: 0.27000)
+INFO train_tool.py: 104: End current epoch !
+INFO main.py: 121: ### cost time: 21.86 m
+INFO main.py: 108: Epoch: 3
+INFO train_tool.py:  86: step_11100 loss: 2.14780, acc: 0.37581
+INFO train_tool.py:  86: step_11200 loss: 2.15099, acc: 0.37414
+INFO train_tool.py:  86: step_11300 loss: 2.13825, acc: 0.37492
+INFO train_tool.py:  86: step_11400 loss: 2.13181, acc: 0.37945
+INFO train_tool.py:  86: step_11500 loss: 2.14916, acc: 0.37688
+INFO train_tool.py:  86: step_11600 loss: 2.13287, acc: 0.37719
+INFO train_tool.py:  86: step_11700 loss: 2.12148, acc: 0.38477
+INFO train_tool.py:  86: step_11800 loss: 2.12800, acc: 0.38320
+INFO train_tool.py:  86: step_11900 loss: 2.13170, acc: 0.38008
+INFO train_tool.py:  86: step_12000 loss: 2.12466, acc: 0.38383
+INFO train_tool.py:  96: macro f1: 0.23222 (best: 0.27000)
+INFO train_tool.py:  86: step_12100 loss: 2.12149, acc: 0.37930
+INFO train_tool.py:  86: step_12200 loss: 2.13626, acc: 0.38234
+INFO train_tool.py:  86: step_12300 loss: 2.15402, acc: 0.36961
+INFO train_tool.py:  86: step_12400 loss: 2.12949, acc: 0.38734
+INFO train_tool.py:  86: step_12500 loss: 2.12835, acc: 0.37695
+INFO train_tool.py:  86: step_12600 loss: 2.13884, acc: 0.37414
+INFO train_tool.py:  86: step_12700 loss: 2.12236, acc: 0.38148
+INFO train_tool.py:  86: step_12800 loss: 2.14361, acc: 0.37977
+INFO train_tool.py:  86: step_12900 loss: 2.14871, acc: 0.37289
+INFO train_tool.py:  86: step_13000 loss: 2.12783, acc: 0.37578
+INFO train_tool.py:  96: macro f1: 0.23168 (best: 0.27000)
+INFO train_tool.py:  86: step_13100 loss: 2.14430, acc: 0.38086
+INFO train_tool.py:  86: step_13200 loss: 2.14010, acc: 0.37703
+INFO train_tool.py:  86: step_13300 loss: 2.13047, acc: 0.37688
+INFO train_tool.py:  86: step_13400 loss: 2.12926, acc: 0.38047
+INFO train_tool.py:  86: step_13500 loss: 2.12926, acc: 0.38625
+INFO train_tool.py:  86: step_13600 loss: 2.14364, acc: 0.37164
+INFO train_tool.py:  86: step_13700 loss: 2.16478, acc: 0.36898
+INFO train_tool.py:  86: step_13800 loss: 2.14591, acc: 0.37336
+INFO train_tool.py:  86: step_13900 loss: 2.13193, acc: 0.37844
+INFO train_tool.py:  86: step_14000 loss: 2.13242, acc: 0.38078
+INFO train_tool.py:  96: macro f1: 0.23287 (best: 0.27000)
+INFO train_tool.py:  86: step_14100 loss: 2.12857, acc: 0.38352
+INFO train_tool.py:  86: step_14200 loss: 2.14869, acc: 0.37914
+INFO train_tool.py:  86: step_14300 loss: 2.14052, acc: 0.37516
+INFO train_tool.py:  86: step_14400 loss: 2.15108, acc: 0.36500
+INFO train_tool.py:  86: step_14500 loss: 2.12705, acc: 0.37758
+INFO train_tool.py:  86: step_14600 loss: 2.14276, acc: 0.37539
+INFO train_tool.py:  86: step_14700 loss: 2.13420, acc: 0.37867
+INFO train_tool.py: 104: End current epoch !
+INFO main.py: 121: ### cost time: 29.28 m
+INFO main.py: 108: Epoch: 4
+INFO main.py: 112: change lr: 0.000100  => 0.000010
+INFO train_tool.py:  86: step_14800 loss: 2.12359, acc: 0.37976
+INFO train_tool.py:  86: step_14900 loss: 2.11156, acc: 0.37961
+INFO train_tool.py:  86: step_15000 loss: 2.12425, acc: 0.38141
+INFO train_tool.py:  96: macro f1: 0.23387 (best: 0.27000)
+INFO train_tool.py:  86: step_15100 loss: 2.12607, acc: 0.37234
+INFO train_tool.py:  86: step_15200 loss: 2.13811, acc: 0.37727
+INFO train_tool.py:  86: step_15300 loss: 2.11959, acc: 0.37898
+INFO train_tool.py:  86: step_15400 loss: 2.13009, acc: 0.37625
+INFO train_tool.py:  86: step_15500 loss: 2.13164, acc: 0.38008
+INFO train_tool.py:  86: step_15600 loss: 2.12368, acc: 0.37789
+INFO train_tool.py:  86: step_15700 loss: 2.09403, acc: 0.38906
+INFO train_tool.py:  86: step_15800 loss: 2.12884, acc: 0.38406
+INFO train_tool.py:  86: step_15900 loss: 2.14029, acc: 0.37797
+INFO train_tool.py:  86: step_16000 loss: 2.12093, acc: 0.38008
+INFO train_tool.py:  96: macro f1: 0.23388 (best: 0.27000)
+INFO train_tool.py:  86: step_16100 loss: 2.15565, acc: 0.38086
+INFO train_tool.py:  86: step_16200 loss: 2.11747, acc: 0.38219
+INFO train_tool.py:  86: step_16300 loss: 2.11588, acc: 0.38438
+INFO train_tool.py:  86: step_16400 loss: 2.12614, acc: 0.38320
+INFO train_tool.py:  86: step_16500 loss: 2.11311, acc: 0.38562
+INFO train_tool.py:  86: step_16600 loss: 2.13046, acc: 0.38125
+INFO train_tool.py:  86: step_16700 loss: 2.13224, acc: 0.38117
+INFO train_tool.py:  86: step_16800 loss: 2.13683, acc: 0.37539
+INFO train_tool.py:  86: step_16900 loss: 2.14089, acc: 0.37484
+INFO train_tool.py:  86: step_17000 loss: 2.12393, acc: 0.38164
+INFO train_tool.py:  96: macro f1: 0.23390 (best: 0.27000)
+INFO train_tool.py:  86: step_17100 loss: 2.11539, acc: 0.38250
+INFO train_tool.py:  86: step_17200 loss: 2.11726, acc: 0.38266
+INFO train_tool.py:  86: step_17300 loss: 2.12910, acc: 0.37672
+INFO train_tool.py:  86: step_17400 loss: 2.13556, acc: 0.37555
+INFO train_tool.py:  86: step_17500 loss: 2.12971, acc: 0.37945
+INFO train_tool.py:  86: step_17600 loss: 2.11180, acc: 0.38391
+INFO train_tool.py:  86: step_17700 loss: 2.12901, acc: 0.38492
+INFO train_tool.py:  86: step_17800 loss: 2.12874, acc: 0.38109
+INFO train_tool.py:  86: step_17900 loss: 2.13845, acc: 0.37984
+INFO train_tool.py:  86: step_18000 loss: 2.12066, acc: 0.37898
+INFO train_tool.py:  96: macro f1: 0.23387 (best: 0.27000)
+INFO train_tool.py:  86: step_18100 loss: 2.12318, acc: 0.38398
+INFO train_tool.py:  86: step_18200 loss: 2.11364, acc: 0.38188
+INFO train_tool.py:  86: step_18300 loss: 2.13047, acc: 0.37930
+INFO train_tool.py:  86: step_18400 loss: 2.12545, acc: 0.38000
+INFO train_tool.py: 104: End current epoch !
+INFO main.py: 121: ### cost time: 36.53 m
+INFO main.py: 108: Epoch: 5
+INFO train_tool.py:  86: step_18500 loss: 2.12424, acc: 0.38027
+INFO train_tool.py:  86: step_18600 loss: 2.12198, acc: 0.38477
+INFO train_tool.py:  86: step_18700 loss: 2.13343, acc: 0.37820
+INFO train_tool.py:  86: step_18800 loss: 2.10941, acc: 0.38234
+INFO train_tool.py:  86: step_18900 loss: 2.15715, acc: 0.37281
+INFO train_tool.py:  86: step_19000 loss: 2.11578, acc: 0.38477
+INFO train_tool.py:  96: macro f1: 0.23382 (best: 0.27000)
+INFO train_tool.py:  86: step_19100 loss: 2.11821, acc: 0.37867
+INFO train_tool.py:  86: step_19200 loss: 2.12171, acc: 0.38141
+INFO train_tool.py:  86: step_19300 loss: 2.12857, acc: 0.37594
+INFO train_tool.py:  86: step_19400 loss: 2.13098, acc: 0.37820
+INFO train_tool.py:  86: step_19500 loss: 2.12886, acc: 0.38445
+INFO train_tool.py:  86: step_19600 loss: 2.11958, acc: 0.38320
+INFO train_tool.py:  86: step_19700 loss: 2.10681, acc: 0.38789
+INFO train_tool.py:  86: step_19800 loss: 2.12183, acc: 0.38008
+INFO train_tool.py:  86: step_19900 loss: 2.12483, acc: 0.37875
+INFO train_tool.py:  86: step_20000 loss: 2.10851, acc: 0.38789
+INFO train_tool.py:  96: macro f1: 0.23412 (best: 0.27000)
+INFO train_tool.py:  86: step_20100 loss: 2.11933, acc: 0.38477
+INFO train_tool.py:  86: step_20200 loss: 2.15229, acc: 0.37828
+INFO train_tool.py:  86: step_20300 loss: 2.13162, acc: 0.38148
+INFO train_tool.py:  86: step_20400 loss: 2.11482, acc: 0.38062
+INFO train_tool.py:  86: step_20500 loss: 2.14049, acc: 0.37469
+INFO train_tool.py:  86: step_20600 loss: 2.12267, acc: 0.37758
+INFO train_tool.py:  86: step_20700 loss: 2.12426, acc: 0.38477
+INFO train_tool.py:  86: step_20800 loss: 2.12776, acc: 0.37711
+INFO train_tool.py:  86: step_20900 loss: 2.11597, acc: 0.38742
+INFO train_tool.py:  86: step_21000 loss: 2.11100, acc: 0.38430
+INFO train_tool.py:  96: macro f1: 0.23412 (best: 0.27000)
+INFO train_tool.py:  86: step_21100 loss: 2.13370, acc: 0.37609
+INFO train_tool.py:  86: step_21200 loss: 2.10310, acc: 0.38516
+INFO train_tool.py:  86: step_21300 loss: 2.11827, acc: 0.38703
+INFO train_tool.py:  86: step_21400 loss: 2.12916, acc: 0.37766
+INFO train_tool.py:  86: step_21500 loss: 2.12838, acc: 0.38047
+INFO train_tool.py:  86: step_21600 loss: 2.13451, acc: 0.37812
+INFO train_tool.py:  86: step_21700 loss: 2.13135, acc: 0.37539
+INFO train_tool.py:  86: step_21800 loss: 2.13164, acc: 0.37938
+INFO train_tool.py:  86: step_21900 loss: 2.14601, acc: 0.37633
+INFO train_tool.py:  86: step_22000 loss: 2.09869, acc: 0.38758
+INFO train_tool.py:  96: macro f1: 0.23400 (best: 0.27000)
+INFO train_tool.py:  86: step_22100 loss: 2.11946, acc: 0.37516
+INFO train_tool.py: 104: End current epoch !
+INFO main.py: 121: ### cost time: 43.64 m
+INFO main.py: 108: Epoch: 6
+INFO train_tool.py:  86: step_22200 loss: 2.13946, acc: 0.37817
+INFO train_tool.py:  86: step_22300 loss: 2.13114, acc: 0.37906
+INFO train_tool.py:  86: step_22400 loss: 2.14088, acc: 0.37352
+INFO train_tool.py:  86: step_22500 loss: 2.14179, acc: 0.37508
+INFO train_tool.py:  86: step_22600 loss: 2.11513, acc: 0.38242
+INFO train_tool.py:  86: step_22700 loss: 2.13211, acc: 0.37594
+INFO train_tool.py:  86: step_22800 loss: 2.14711, acc: 0.37562
+INFO train_tool.py:  86: step_22900 loss: 2.13607, acc: 0.37812
+INFO train_tool.py:  86: step_23000 loss: 2.12522, acc: 0.38016
+INFO train_tool.py:  96: macro f1: 0.23436 (best: 0.27000)
+INFO train_tool.py:  86: step_23100 loss: 2.11614, acc: 0.38023
+INFO train_tool.py:  86: step_23200 loss: 2.12481, acc: 0.37688
+INFO train_tool.py:  86: step_23300 loss: 2.13977, acc: 0.37680
+INFO train_tool.py:  86: step_23400 loss: 2.11040, acc: 0.38727
+INFO train_tool.py:  86: step_23500 loss: 2.12874, acc: 0.37688
+INFO train_tool.py:  86: step_23600 loss: 2.09509, acc: 0.38781
+INFO train_tool.py:  86: step_23700 loss: 2.16237, acc: 0.37172
+INFO train_tool.py:  86: step_23800 loss: 2.13841, acc: 0.37625
+INFO train_tool.py:  86: step_23900 loss: 2.10527, acc: 0.38688
+INFO train_tool.py:  86: step_24000 loss: 2.13566, acc: 0.37469
+INFO train_tool.py:  96: macro f1: 0.23420 (best: 0.27000)
+INFO train_tool.py:  86: step_24100 loss: 2.13087, acc: 0.37992
+INFO train_tool.py:  86: step_24200 loss: 2.11226, acc: 0.38117
+INFO train_tool.py:  86: step_24300 loss: 2.13034, acc: 0.38227
+INFO train_tool.py:  86: step_24400 loss: 2.12048, acc: 0.37875
+INFO train_tool.py:  86: step_24500 loss: 2.10665, acc: 0.38602
+INFO train_tool.py:  86: step_24600 loss: 2.11160, acc: 0.38664
+INFO train_tool.py:  86: step_24700 loss: 2.10341, acc: 0.39391
+INFO train_tool.py:  86: step_24800 loss: 2.11392, acc: 0.38633
+INFO train_tool.py:  86: step_24900 loss: 2.12133, acc: 0.38016
+INFO train_tool.py:  86: step_25000 loss: 2.11839, acc: 0.38250
+INFO train_tool.py:  96: macro f1: 0.23446 (best: 0.27000)
+INFO train_tool.py:  86: step_25100 loss: 2.10569, acc: 0.38602
+INFO train_tool.py:  86: step_25200 loss: 2.13068, acc: 0.38047
+INFO train_tool.py:  86: step_25300 loss: 2.10643, acc: 0.38781
+INFO train_tool.py:  86: step_25400 loss: 2.14189, acc: 0.37320
+INFO train_tool.py:  86: step_25500 loss: 2.10515, acc: 0.38812
+INFO train_tool.py:  86: step_25600 loss: 2.10800, acc: 0.38328
+INFO train_tool.py:  86: step_25700 loss: 2.12260, acc: 0.38000
+INFO train_tool.py: 104: End current epoch !
+INFO main.py: 121: ### cost time: 50.65 m
+INFO main.py: 108: Epoch: 7
+INFO train_tool.py:  86: step_25800 loss: 2.08746, acc: 0.39193
+INFO train_tool.py:  86: step_25900 loss: 2.13454, acc: 0.37977
+INFO train_tool.py:  86: step_26000 loss: 2.13328, acc: 0.37430
+INFO train_tool.py:  96: macro f1: 0.23474 (best: 0.27000)
+INFO train_tool.py:  86: step_26100 loss: 2.11616, acc: 0.38023
+INFO train_tool.py:  86: step_26200 loss: 2.12548, acc: 0.38258
+INFO train_tool.py:  86: step_26300 loss: 2.10241, acc: 0.38359
+INFO train_tool.py:  86: step_26400 loss: 2.11622, acc: 0.38297
+INFO train_tool.py:  86: step_26500 loss: 2.13305, acc: 0.38797
+INFO train_tool.py:  86: step_26600 loss: 2.12602, acc: 0.38125
+INFO train_tool.py:  86: step_26700 loss: 2.13254, acc: 0.37922
+INFO train_tool.py:  86: step_26800 loss: 2.13103, acc: 0.38016
+INFO train_tool.py:  86: step_26900 loss: 2.13003, acc: 0.37664
+INFO train_tool.py:  86: step_27000 loss: 2.12566, acc: 0.38641
+INFO train_tool.py:  96: macro f1: 0.23445 (best: 0.27000)
+INFO train_tool.py:  86: step_27100 loss: 2.11039, acc: 0.38656
+INFO train_tool.py:  86: step_27200 loss: 2.12292, acc: 0.37750
+INFO train_tool.py:  86: step_27300 loss: 2.11219, acc: 0.38492
+INFO train_tool.py:  86: step_27400 loss: 2.14603, acc: 0.37828
+INFO train_tool.py:  86: step_27500 loss: 2.12000, acc: 0.37906
+INFO train_tool.py:  86: step_27600 loss: 2.12261, acc: 0.38258
+INFO train_tool.py:  86: step_27700 loss: 2.12185, acc: 0.37906
+INFO train_tool.py:  86: step_27800 loss: 2.11350, acc: 0.38188
+INFO train_tool.py:  86: step_27900 loss: 2.12573, acc: 0.37672
+INFO train_tool.py:  86: step_28000 loss: 2.11856, acc: 0.38219
+INFO train_tool.py:  96: macro f1: 0.23418 (best: 0.27000)
+INFO train_tool.py:  86: step_28100 loss: 2.13256, acc: 0.38203
+INFO train_tool.py:  86: step_28200 loss: 2.11059, acc: 0.38039
+INFO train_tool.py:  86: step_28300 loss: 2.10991, acc: 0.38391
+INFO train_tool.py:  86: step_28400 loss: 2.15025, acc: 0.37062
+INFO train_tool.py:  86: step_28500 loss: 2.13062, acc: 0.37531
+INFO train_tool.py:  86: step_28600 loss: 2.11133, acc: 0.38570
+INFO train_tool.py:  86: step_28700 loss: 2.12180, acc: 0.37914
+INFO train_tool.py:  86: step_28800 loss: 2.13367, acc: 0.38102
+INFO train_tool.py:  86: step_28900 loss: 2.11769, acc: 0.37734
+INFO train_tool.py:  86: step_29000 loss: 2.07638, acc: 0.39219
+INFO train_tool.py:  96: macro f1: 0.23452 (best: 0.27000)
+INFO train_tool.py:  86: step_29100 loss: 2.12945, acc: 0.38414
+INFO train_tool.py:  86: step_29200 loss: 2.11572, acc: 0.38219
+INFO train_tool.py:  86: step_29300 loss: 2.11720, acc: 0.38414
+INFO train_tool.py:  86: step_29400 loss: 2.12802, acc: 0.37742
+INFO train_tool.py: 104: End current epoch !
+INFO main.py: 121: ### cost time: 58.01 m
+INFO main.py: 108: Epoch: 8
+INFO train_tool.py:  86: step_29500 loss: 2.13020, acc: 0.38449
+INFO train_tool.py:  86: step_29600 loss: 2.11870, acc: 0.38312
+INFO train_tool.py:  86: step_29700 loss: 2.10738, acc: 0.38133
+INFO train_tool.py:  86: step_29800 loss: 2.13360, acc: 0.37867
+INFO train_tool.py:  86: step_29900 loss: 2.14432, acc: 0.37258
+INFO train_tool.py:  86: step_30000 loss: 2.11820, acc: 0.38336
+INFO train_tool.py:  96: macro f1: 0.23423 (best: 0.27000)
+INFO train_tool.py:  86: step_30100 loss: 2.12637, acc: 0.38102
+INFO train_tool.py:  86: step_30200 loss: 2.11019, acc: 0.37961
+INFO train_tool.py:  86: step_30300 loss: 2.09933, acc: 0.39047
+INFO train_tool.py:  86: step_30400 loss: 2.10290, acc: 0.38617
+INFO train_tool.py:  86: step_30500 loss: 2.14439, acc: 0.37539
+INFO train_tool.py:  86: step_30600 loss: 2.12113, acc: 0.38344
+INFO train_tool.py:  86: step_30700 loss: 2.13067, acc: 0.37312
+INFO train_tool.py:  86: step_30800 loss: 2.10101, acc: 0.38484
+INFO train_tool.py:  86: step_30900 loss: 2.13613, acc: 0.38188
+INFO train_tool.py:  86: step_31000 loss: 2.14286, acc: 0.37852
+INFO train_tool.py:  96: macro f1: 0.23435 (best: 0.27000)
+INFO train_tool.py:  86: step_31100 loss: 2.13961, acc: 0.37719
+INFO train_tool.py:  86: step_31200 loss: 2.10858, acc: 0.38484
+INFO train_tool.py:  86: step_31300 loss: 2.12559, acc: 0.37930
+INFO train_tool.py:  86: step_31400 loss: 2.10341, acc: 0.38602
+INFO train_tool.py:  86: step_31500 loss: 2.13982, acc: 0.37789
+INFO train_tool.py:  86: step_31600 loss: 2.11862, acc: 0.38539
+INFO train_tool.py:  86: step_31700 loss: 2.11753, acc: 0.38625
+INFO train_tool.py:  86: step_31800 loss: 2.12859, acc: 0.37828
+INFO train_tool.py:  86: step_31900 loss: 2.12646, acc: 0.37711
+INFO train_tool.py:  86: step_32000 loss: 2.12671, acc: 0.38461
+INFO train_tool.py:  96: macro f1: 0.23443 (best: 0.27000)
+INFO train_tool.py:  86: step_32100 loss: 2.13111, acc: 0.37664
+INFO train_tool.py:  86: step_32200 loss: 2.09486, acc: 0.39211
+INFO train_tool.py:  86: step_32300 loss: 2.10690, acc: 0.38500
+INFO train_tool.py:  86: step_32400 loss: 2.12256, acc: 0.37914
+INFO train_tool.py:  86: step_32500 loss: 2.12946, acc: 0.38031
+INFO train_tool.py:  86: step_32600 loss: 2.12333, acc: 0.38219
+INFO train_tool.py:  86: step_32700 loss: 2.11942, acc: 0.38461
+INFO train_tool.py:  86: step_32800 loss: 2.10501, acc: 0.38531
+INFO train_tool.py:  86: step_32900 loss: 2.11936, acc: 0.37789
+INFO train_tool.py:  86: step_33000 loss: 2.12454, acc: 0.38250
+INFO train_tool.py:  96: macro f1: 0.23412 (best: 0.27000)
+INFO train_tool.py:  86: step_33100 loss: 2.11415, acc: 0.38234
+INFO train_tool.py: 104: End current epoch !
+INFO main.py: 121: ### cost time: 65.30 m
+INFO main.py: 108: Epoch: 9
+INFO train_tool.py:  86: step_33200 loss: 2.11545, acc: 0.37553

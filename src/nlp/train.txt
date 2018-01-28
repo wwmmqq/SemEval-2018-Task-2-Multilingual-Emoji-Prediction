@@ -1,0 +1,2 @@
+__label__2 text file containing a training sentence per line along with the labels
+__label__1 text file containing a trainsssssssssss ss ss ss ing sentence per line along with the labels    __label2__
